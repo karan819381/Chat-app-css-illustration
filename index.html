@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Chat App Css illustration</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="left-part">
+        <div class="bg-purple"></div>
+
+        <!-- mobile Screen -->
+        <div class="mobile">
+          <!-- Screen -->
+          <div class="screen">
+            <div class="head">
+              <div class="notch"></div>
+              <div class="detail">
+                <div class="left-head-side">
+                  <img src="./images/chevron-left.svg" alt="chevron-left" />
+                  <div class="personal">
+                    <img src="./images/avatar.jpg" alt="avatar" />
+                    <div class="name-contain">
+                      <h3>Samuel Green</h3>
+                      <p>Available to walk</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="moreButton">
+                  <img src="./images/more-vertical.svg" alt="more-vertical" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Chat -->
+            <div class="chat">
+              <div class="left-chat">
+                <p>That sounds great. I’d be happy with that.</p>
+              </div>
+              <div class="left-chat">
+                <p>Could you send over some pictures of your dog, please?</p>
+              </div>
+
+              <div class="right-side-chat">
+                <div class="dog-img-container">
+                  <span>
+                    <img src="./images/dog-image-1.jpg" alt="dog-image-1" />
+                  </span>
+                  <span>
+                    <img src="./images/dog-image-2.jpg" alt="dog-image-2" />
+                  </span>
+                  <span>
+                    <img src="./images/dog-image-3.jpg" alt="dog-image-3" />
+                  </span>
+                </div>
+                <div class="right-chat">
+                  <p>Here are a few pictures. She’s a happy girl!</p>
+                </div>
+                <div class="right-chat">
+                  <p>Can you make it?</p>
+                </div>
+              </div>
+
+              <div class="left-chat chat3">
+                <p>
+                  She looks so happy! The time we discussed works. How long
+                  shall I take her out for?
+                </p>
+              </div>
+
+              <div class="radio">
+                <span>
+                  <input type="radio" name="radio" />
+                  <label for="radio">30 minute walk</label>
+                </span>
+
+                <p>$29</p>
+              </div>
+              <div class="radio">
+                <span>
+                  <input type="radio" name="radio" />
+                  <label for="radio">1 hour walk</label>
+                </span>
+                <p>$49</p>
+              </div>
+            </div>
+            <div class="submit-btn-container">
+              <input type="text" name="input-field" id="input" placeholder="Type a message...">
+              <button type="submit">
+                <img src="./images/chevron-right.svg" alt="submit">
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- second part -->
+
+      <section class="right-part">
+        <div class="light-bg-purple"></div>
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
